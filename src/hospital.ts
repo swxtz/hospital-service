@@ -2,7 +2,7 @@ import type { Employee } from "./dtos/employee.dto";
 import type { Hospitalization } from "./dtos/hospitalization.dto";
 import type { Patient } from "./dtos/pacient.dto";
 
-class Hospital {
+export class Hospital {
     private patients: Patient[] = [];
     private employees: Employee[] = [];
     private hospitalizations: Hospitalization[] = [];
